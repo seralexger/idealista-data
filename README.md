@@ -27,3 +27,7 @@ With all the idealista rent data of Spain, I have made some graphs to have a qui
 ### Rental density
 
 ![alt text](https://raw.githubusercontent.com/seralexger/idealista-data/master/data/images/rental_density_readme.png)
+
+### Price gradient
+
+![alt text](https://raw.githubusercontent.com/seralexger/idealista-data/master/data/images/price_gradient_readme.png)
