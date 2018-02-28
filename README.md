@@ -25,3 +25,5 @@ idea_scraper.search_by_area(lat, lng, distance, nPage = 1, credentials = None, p
 With all the idealista rent data of Spain, I have made some graphs to have a quick view of the information.
 
 ### Rental density
+
+![alt text](https://raw.githubusercontent.com/seralexger/idealista-data/master/data/images/rental_density_readme.png)
