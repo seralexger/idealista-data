@@ -26,8 +26,20 @@ With all the idealista rent data of Spain, I have made some graphs to have a qui
 
 ### Rental density
 
+```
+#Density rent homes
+housing_data.plot(kind='scatter', x='longitude', y='latitude', alpha=0.05)
+plt.show()
+```
+
 ![alt text](https://raw.githubusercontent.com/seralexger/idealista-data/master/data/images/rental_density_readme.png)
 
 ### Price gradient
+
+```
+#Color gradient home prices
+housing_data.plot(kind='scatter', x='longitude', y='latitude', alpha=0.3, c='price', cmap=plt.get_cmap('jet'), colorbar=True, vmin=0, vmax= 1000)
+plt.show()
+```
 
 ![alt text](https://raw.githubusercontent.com/seralexger/idealista-data/master/data/images/price_gradient_readme.png)
