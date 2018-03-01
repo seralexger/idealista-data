@@ -38,7 +38,8 @@ plt.show()
 
 ```
 #Color gradient home prices
-housing_data.plot(kind='scatter', x='longitude', y='latitude', alpha=0.3, c='price', cmap=plt.get_cmap('jet'), colorbar=True, vmin=0, vmax= 1000)
+housing_data.plot(kind='scatter', x='longitude', y='latitude', alpha=0.3, 
+				  c='price', cmap=plt.get_cmap('jet'), colorbar=True, vmin=0, vmax= 1000)
 plt.show()
 ```
 
