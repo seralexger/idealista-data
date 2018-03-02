@@ -1,6 +1,6 @@
 # idealista-data
  
-I built an unofficial class to use some idealistic characteristics. Then I use it to obtain data on rental housing in Spain, in order to play a bit with this data, and I built a simple prediction class of the value of the rental house.
+I built an unofficial class to use some idealista api features. Then I use it to obtain data on rental housing in Spain, in order to play a bit with this data, and I built a simple prediction class of the value of the rental house.
 
 ## Getting Started
 
