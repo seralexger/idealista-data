@@ -23,7 +23,7 @@ idea_scraper.search_by_area(lat, lng, distance, nPage = 1, credentials = None, p
 
 ## Analyze the data
 
-With all the idealista rental data of Spain, we can made some graphs to have a quick view of the information, for make this represantation and other simple representations you can find code in plot_sample.py.
+With all the idealista rental data of Spain ('data/rent_housing_data.csv'), we can made some graphs to have a quick view of the information, for make this represantation and other simple representations you can find code in plot_sample.py.
 
 ### Rental density
 
