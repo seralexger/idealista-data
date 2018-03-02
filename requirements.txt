@@ -1,0 +1,6 @@
+pandas==0.16.2
+tqdm==4.11.0
+requests==2.7.0
+numpy==1.13.1
+matplotlib==1.4.3
+scipy==0.19.1
