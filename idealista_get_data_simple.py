@@ -44,7 +44,7 @@ for item in housing_arr:
 with open('data/rent_housing_data.json', 'w') as fp:
 	json.dump(housing_rent, fp, indent = 4)'''
 
-#Simple way to get data of rent houses in Spain, it is possible to use proxies, but I dont be necessary
+#Simple way to obtain data on rental houses in Spain, it is possible to use proxies, but I did not see it necessary
 
 scraper = Idealista()
 reader = csv.reader(open('data/utils/spain_cities.csv', 'r', encoding = 'latin1'), delimiter=';')
