@@ -135,7 +135,8 @@ class Idealista:
 			chars = string.ascii_lowercase
 			return ''.join(random.choice(chars) for x in range(lngRan))
 
-	def modify_filter(order = 'weigh', 
+	def modify_filter(self,
+					  order = 'weigh', 
 					  mPolygon = '[com.idealista.android.domain.model.polygon.Polygon@0]', 
 					  propertyType = 'homes', 
 					  locale = 'es', 
